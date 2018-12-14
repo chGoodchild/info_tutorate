@@ -1,0 +1,125 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00800000
+X-Mozilla-Keys:                                                                                 
+Subject: Re: Frage ArrayList Iterator
+To: stefan wittemer <stefan-wittemer@gmx.de>
+References: <trinity-1eda4c66-4d1b-4d20-a3d9-95ff0b9779c6-1470774787054@3capp-gmx-bs08>
+From: Chandran Goodchild <ch.goodchild@embedsmart.de>
+Message-ID: <6355ade7-2b25-7c51-d833-b167fe8268c4@embedsmart.de>
+Date: Wed, 10 Aug 2016 10:38:19 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101
+ Thunderbird/45.2.0
+MIME-Version: 1.0
+In-Reply-To: <trinity-1eda4c66-4d1b-4d20-a3d9-95ff0b9779c6-1470774787054@3capp-gmx-bs08>
+Content-Type: multipart/alternative;
+ boundary="------------998C550C0C4CE9B3793A55BD"
+
+This is a multi-part message in MIME format.
+--------------998C550C0C4CE9B3793A55BD
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hallo Stefan,
+
+Iterator ist ein Interface bzw. eine Schnittstelle. Wenn es mehrere
+Klassen gibt die =C3=A4hnliche eigenschaften haben, kann es sinnvoll sein=
+
+eine Schnittstelle zu definieren die alle Klassen mit dieser Eigenschaft
+umfasst. Wenn eine Klasse diese Schnittstelle implementieren will, muss
+sie die Eigenschaften (zB. Methoden) haben die von dieser Schnittstelle
+vorgegeben sind.
+
+Siehe: https://en.wikipedia.org/wiki/Interface_(Java)
+
+Und gegen Ende der =C3=9Cbungen wurde die Interface auch behandelt...
+
+Viele Gr=C3=BC=C3=9Fe,
+
+Chandran
+
+On 09.08.2016 22:33, stefan wittemer wrote:
+> Hallo Chandran,
+> =20
+> ich gehe gerade die Folien der Vorlesung durch und bin auf ein Problem
+> gesto=C3=9Fen.
+> =20
+> im Kapitel 7 wird die Klasse ArrayList definiert und erkl=C3=A4rt. Da
+> verstehe ich soweit alles gut. Jedoch wird dieser Klasse eine Methode
+> Iterator() zugewiesen. Verstehe ich ebenfalls. Jedoch wird auf Folie
+> 7.32 gesagt : Um eine breite Anwendbarkeit realisieren zu k=C3=B6nnen,
+> m=C3=BCssen Klassen wie ArrayList oder Iterator diese Flexibilit=C3=A4t=
+ haben.
+> =20
+> Ist Iterator nun eine Klasse oder eine Methode von ArrayList?
+> =20
+> Viele Gr=C3=BC=C3=9Fe Stefan
+
+--=20
+Chandran Goodchild
+
+Handy:    +4915154148086
+Adresse:  Merzhauser Stra=C3=9Fe 158
+          Zi Nr. 16-01-20
+          79100 Freiburg
+          Germany
+
+
+--------------998C550C0C4CE9B3793A55BD
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <p>Hallo Stefan,</p>
+    <p>Iterator ist ein Interface bzw. eine Schnittstelle. Wenn es
+      mehrere Klassen gibt die ähnliche eigenschaften haben, kann es
+      sinnvoll sein eine Schnittstelle zu definieren die alle Klassen
+      mit dieser Eigenschaft umfasst. Wenn eine Klasse diese
+      Schnittstelle implementieren will, muss sie die Eigenschaften (zB.
+      Methoden) haben die von dieser Schnittstelle vorgegeben sind.</p>
+    <p>Siehe: <a class="moz-txt-link-freetext" href="https://en.wikipedia.org/wiki/Interface_(Java)">https://en.wikipedia.org/wiki/Interface_(Java)</a></p>
+    <p>Und gegen Ende der Übungen wurde die Interface auch behandelt...</p>
+    <p>Viele Grüße,</p>
+    <p>Chandran<br>
+    </p>
+    <div class="moz-cite-prefix">On 09.08.2016 22:33, stefan wittemer
+      wrote:<br>
+    </div>
+    <blockquote
+cite="mid:trinity-1eda4c66-4d1b-4d20-a3d9-95ff0b9779c6-1470774787054@3capp-gmx-bs08"
+      type="cite">
+      <div style="font-family: Verdana;font-size: 12.0px;">
+        <div>Hallo Chandran,</div>
+        <div> </div>
+        <div>ich gehe gerade die Folien der Vorlesung durch und bin auf
+          ein Problem gestoßen.</div>
+        <div> </div>
+        <div>im Kapitel 7 wird die Klasse ArrayList definiert und
+          erklärt. Da verstehe ich soweit alles gut. Jedoch wird dieser
+          Klasse eine Methode Iterator() zugewiesen. Verstehe ich
+          ebenfalls. Jedoch wird auf Folie 7.32 gesagt : Um eine breite
+          Anwendbarkeit realisieren zu können, müssen Klassen wie
+          ArrayList oder Iterator diese Flexibilität haben.</div>
+        <div> </div>
+        <div>Ist Iterator nun eine Klasse oder eine Methode von
+          ArrayList?</div>
+        <div> </div>
+        <div>Viele Grüße Stefan</div>
+      </div>
+    </blockquote>
+    <br>
+    <pre class="moz-signature" cols="72">-- 
+Chandran Goodchild
+
+Handy:    +4915154148086
+Adresse:  Merzhauser Straße 158
+          Zi Nr. 16-01-20
+          79100 Freiburg
+          Germany</pre>
+  </body>
+</html>
+
+--------------998C550C0C4CE9B3793A55BD--

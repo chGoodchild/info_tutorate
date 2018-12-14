@@ -1,0 +1,196 @@
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00800000
+X-Mozilla-Keys:                                                                                 
+Subject: Re: Sondertutorat
+To: Erol EMLIK <erolemlik@aol.com>, stefan-wittemer@gmx.de
+References: <15656826f1b-61ab-1112@webprd-m38.mail.aol.com>
+From: Chandran Goodchild <ch.goodchild@embedsmart.de>
+Message-ID: <4063d42d-ff86-6ead-aed0-ca07bea31423@embedsmart.de>
+Date: Thu, 4 Aug 2016 20:06:37 +0200
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101
+ Thunderbird/45.2.0
+MIME-Version: 1.0
+In-Reply-To: <15656826f1b-61ab-1112@webprd-m38.mail.aol.com>
+Content-Type: multipart/alternative;
+ boundary="------------C0648B85E79E6D0B2A3BDAAB"
+
+This is a multi-part message in MIME format.
+--------------C0648B85E79E6D0B2A3BDAAB
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hallo Erol,
+
+  *  Eine ArrayList ist wie eine normale Array, au=C3=9Fer das die Anzahl=
+ der
+    Elemente nicht fest ist. Eine ArrayList kann beliebig verl=C3=A4ngert=
+ und
+    gek=C3=BCrzt werden:
+    https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html#ad=
+d(int,%20E)
+
+
+  * Jede Klasse hat einen Konstruktor. Der Konstruktor ist eine
+    besondere art Methode. Diese Methode (Konstruktor) wird so genannt
+    wie die Klasse selbst und sie wird bei der Erzeugung eines Objektes
+    ausgef=C3=BChrt. Wenn du keinen Konstruktor brauchst (z.B. weil du in=
+
+    deiner Klasse keine Variablen zum initialisieren hast), musst du den
+    Konstruktor auch nicht hin schreiben. Der Compiler generiert aber
+    trotzdem einen Leeren Konstruktor mit "public" zugriff.
+
+
+  * Parse bedeutet auf Deutsch ungef=C3=A4hr "durchsuchen" oder "durchles=
+en":
+    https://translate.google.com/#auto/de/parse
+
+    Diese Frage ist sehr allgemein.
+    Ich werde mal das Beispiel aus stackexchange nehmen:
+    http://stackoverflow.com/questions/787735/what-is-parse-parsing
+    Hier wird ein String "geparsed" bzw. durchsucht um integers zu finden=
+:
+    int i =3D |Integer.parseInt("This is one long string and it includes
+    42");|
+    ||
+    |Nun sollte i =3D=3D 42 gelten.|
+    ||
+    |In diesem Fall ist parseInt eine Methode von der Klasse Integer:
+    https://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html#pars=
+eInt(java.lang.String)|
+    ||
+    |Es gibt jedoch auch ein Interface zum parsen von XML Dateien. |
+    |https://docs.oracle.com/javase/7/docs/api/org/xml/sax/Parser.html#pa=
+rse(org.xml.sax.InputSource)|
+    ||
+    |Bestimmt gibt es noch viele mehr Methoden und Klassen die
+    irgendetwas durchlaufen...|
+
+Hoffentlich hat das eure Fragen beantwortet, danke das ihr die Fragen
+jetzt schon stellt. Ist es ok wenn ich eure Fragen im Tutorat verwende?
+
+Viele Gr=C3=BC=C3=9Fe,
+
+Chandran
+
+On 04.08.2016 19:03, Erol EMLIK wrote:
+> Hallo Chandran,
+>
+> hier ein paar Fragen:
+> Wann genau verwendet man denn eine Array Lists und woran kann man es in=
+ einem Programm erkennen?=20
+> Wie definiert man den Konstruktor einer Klasse und wann ist es notwendi=
+g einen Konstrukor zu verwenden?
+> Wann benutzt man parse und wie funktioniert es?
+> Wir werden uns noch weitere Fragen bis zum Sondertutoret =C3=BCberlegen=
+ und diese dann nachreichen.
+> Wir w=C3=BCrden uns nat=C3=BCrlich freuen wenn du paar kleine Fragen sc=
+hon vor dem Sondertutorat beantworten k=C3=B6nntest, nat=C3=BCrlich nur w=
+enn bei dir passt.
+>
+> Mit freundlichen Gr=C3=BC=C3=9Fen=20
+> Erol Emlik
+>
+
+--=20
+Chandran Goodchild
+
+Handy:    +4915154148086
+Adresse:  Merzhauser Stra=C3=9Fe 158
+          Zi Nr. 16-01-20
+          79100 Freiburg
+          Germany
+
+
+--------------C0648B85E79E6D0B2A3BDAAB
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <p>Hallo Erol,</p>
+    <ul>
+      <li> Eine ArrayList ist wie eine normale Array, außer das die
+        Anzahl der Elemente nicht fest ist. Eine ArrayList kann beliebig
+        verlängert und gekürzt werden:
+<a class="moz-txt-link-freetext" href="https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html#add(int,%20E)">https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html#add(int,%20E)</a></li>
+    </ul>
+    <p><br>
+    </p>
+    <ul>
+      <li>Jede Klasse hat einen Konstruktor. Der Konstruktor ist eine
+        besondere art Methode. Diese Methode (Konstruktor) wird so
+        genannt wie die Klasse selbst und sie wird bei der Erzeugung
+        eines Objektes ausgeführt. Wenn du keinen Konstruktor brauchst
+        (z.B. weil du in deiner Klasse keine Variablen zum
+        initialisieren hast), musst du den Konstruktor auch nicht hin
+        schreiben. Der Compiler generiert aber trotzdem einen Leeren
+        Konstruktor mit "public" zugriff.</li>
+    </ul>
+    <p><br>
+    </p>
+    <ul>
+      <li>Parse bedeutet auf Deutsch ungefähr "durchsuchen" oder
+        "durchlesen": <a class="moz-txt-link-freetext" href="https://translate.google.com/#auto/de/parse">https://translate.google.com/#auto/de/parse</a><br>
+        <br>
+        Diese Frage ist sehr allgemein. <br>
+        Ich werde mal das Beispiel aus stackexchange nehmen:
+        <a class="moz-txt-link-freetext" href="http://stackoverflow.com/questions/787735/what-is-parse-parsing">http://stackoverflow.com/questions/787735/what-is-parse-parsing</a><br>
+        Hier wird ein String "geparsed" bzw. durchsucht um integers zu
+        finden: <br>
+        int i = <code>Integer.parseInt("This is one long string and it
+          includes 42");</code><br>
+        <code></code><br>
+        <code>Nun sollte i == 42 gelten.</code><br>
+        <code></code><br>
+        <code>In diesem Fall ist parseInt eine Methode von der Klasse
+          Integer:
+<a class="moz-txt-link-freetext" href="https://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html#parseInt(java.lang.String)">https://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html#parseInt(java.lang.String)</a></code><br>
+        <code></code><br>
+        <code>Es gibt jedoch auch ein Interface zum parsen von XML
+          Dateien. </code><br>
+        <code><a class="moz-txt-link-freetext" href="https://docs.oracle.com/javase/7/docs/api/org/xml/sax/Parser.html#parse(org.xml.sax.InputSource)">https://docs.oracle.com/javase/7/docs/api/org/xml/sax/Parser.html#parse(org.xml.sax.InputSource)</a></code><br>
+        <code></code><br>
+        <code>Bestimmt gibt es noch viele mehr Methoden und Klassen die
+          irgendetwas durchlaufen...</code><br>
+      </li>
+    </ul>
+    <p>Hoffentlich hat das eure Fragen beantwortet, danke das ihr die
+      Fragen jetzt schon stellt. Ist es ok wenn ich eure Fragen im
+      Tutorat verwende?</p>
+    <p>Viele Grüße,</p>
+    <p>Chandran<br>
+    </p>
+    <div class="moz-cite-prefix">On 04.08.2016 19:03, Erol EMLIK wrote:<br>
+    </div>
+    <blockquote cite="mid:15656826f1b-61ab-1112@webprd-m38.mail.aol.com"
+      type="cite">
+      <pre wrap="">Hallo Chandran,
+
+hier ein paar Fragen:
+Wann genau verwendet man denn eine Array Lists und woran kann man es in einem Programm erkennen? 
+Wie definiert man den Konstruktor einer Klasse und wann ist es notwendig einen Konstrukor zu verwenden?
+Wann benutzt man parse und wie funktioniert es?
+Wir werden uns noch weitere Fragen bis zum Sondertutoret überlegen und diese dann nachreichen.
+Wir würden uns natürlich freuen wenn du paar kleine Fragen schon vor dem Sondertutorat beantworten könntest, natürlich nur wenn bei dir passt.
+
+Mit freundlichen Grüßen 
+Erol Emlik
+
+</pre>
+    </blockquote>
+    <br>
+    <pre class="moz-signature" cols="72">-- 
+Chandran Goodchild
+
+Handy:    +4915154148086
+Adresse:  Merzhauser Straße 158
+          Zi Nr. 16-01-20
+          79100 Freiburg
+          Germany</pre>
+  </body>
+</html>
+
+--------------C0648B85E79E6D0B2A3BDAAB--

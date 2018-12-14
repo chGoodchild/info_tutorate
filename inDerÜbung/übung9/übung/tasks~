@@ -1,0 +1,8 @@
+In aufgabe 8.2.c wird gekürzt. Somit sollte auch in Aufgabe 8.2.a gekürzt werden dürfen. Das ist auch erlaubt:
+
+n^2 + 27 n <= n^2 + 27n^2 = 28n^2
+
+Für n = 1:
+28 <= 28 ---> Also richtig...
+
+
